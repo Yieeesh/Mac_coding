@@ -1,0 +1,35 @@
+span.mtk16 {
+text-shadow: 0 0 20px #4ec9b0;
+}
+
+div.quick-input-widget {
+--vscode-quickInput-background: transparent !important;
+
+backdrop-filter: blur(20px) brightness(140%);
+}
+
+div.monaco-inputbox {
+--vscode-input-background: transparent !important;
+}
+
+div.focused {
+--vscode-quickInputList-focusBackground: #04395e80 !important;
+}
+
+div.active-line-number {
+--vscode-editorLineNumber-activeForeground: #fff !important;
+text-shadow: 0 0 20px #fff;
+
+}
+
+div.sticky-widget {
+--vscode-editorStickyScroll-background: transparent !important;
+
+backdrop-filter: blur(20px) brightness(110%);
+}
+
+div.monaco-hover {
+--vscode-editorHoverWidget-background: transparent !important;
+
+backdrop-filter: blur(20px) brightness(110%);
+}
